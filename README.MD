@@ -14,6 +14,11 @@ Layered architecture (`routes → middleware → controllers → services`), imp
 
 ---
 
+## Screenshots
+  ![Login page](./docs/login.png)
+  ![Product catalog](./docs/catalog.png)
+  ![Main page](./docs/mainPage.png)
+
 ## Technologies Used
 
 * [Node.js](https://nodejs.org/)
