@@ -2,6 +2,16 @@
 
 This project is the backend REST API for an online store, built with **Node.js**, **Express**, and **MySQL**. It connects to a frontend built with **React + Next.js**.
 
+> **Note:** This application was built for a Spanish-speaking stationery store (papelería) in Mexico, so the UI and in-code comments are in Spanish. This documentation is in English for accessibility.
+
+---
+
+## Architecture
+
+Layered architecture (`routes → middleware → controllers → services`), implemented following REST API best practices for validation, centralized error handling, and separation of concerns.
+
+📄 [See full architecture breakdown](./ARCHITECTURE.md)
+
 ---
 
 ## Technologies Used
@@ -21,17 +31,21 @@ This project is the backend REST API for an online store, built with **Node.js**
 * MySQL 8
 * Git
 
-## Clone the project
+## Setup
 
-git clone 
+```bash
+git clone <repo-url>
 cd mroffice-web
+```
 
-## Backend
+### Backend
 
+```bash
 cd backend
 npm install
+```
 
-Create a .env file with the following content:
+Create a `.env` file with the following content:
 PORT=3000
 DB_HOST=localhost
 DB_USER=root
@@ -40,16 +54,19 @@ DB_NAME=your_database
 DB_PORT=3306
 JWT_SECRET=your_jwt_secret
 
-Then start the backend:
+Start the backend:
+
+```bash
 npm run dev
+```
 
-## Frontend
+### Frontend
 
+```bash
 cd ../frontend
 npm install
-
-Start the frontend:
 npm run dev -- --port 3001
+```
 
 ## Access
 
@@ -58,4 +75,4 @@ npm run dev -- --port 3001
 
 ## Note
 
-This project requires a local MySQL database configured in the .env file.
+This project requires a local MySQL database configured in the `.env` file.
