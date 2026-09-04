@@ -1,0 +1,22 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+logs/
+
+# Temporales
+*.tmp
+*.temp
+
+# Ignorar .env del backend (archivo eliminado del repo)
+backend/.env
+
+# Ignorar dependencias instaladas
+node_modules/

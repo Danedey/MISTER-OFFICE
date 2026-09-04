@@ -1,0 +1,40 @@
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Temporales
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Base de datos local
+*.sqlite
+*.sqlite3
+
+# Uploads (si tienes carpeta de archivos subidos)
+uploads/
+public/uploads/
+
+# Coverage de tests
+coverage/
+.nyc_output/
+
+# Build
+dist/
+build/
