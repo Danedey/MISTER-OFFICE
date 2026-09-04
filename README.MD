@@ -15,9 +15,9 @@ Layered architecture (`routes → middleware → controllers → services`), imp
 ---
 
 ## Screenshots
-  ![Login page](./docs/login.png)
-  ![Product catalog](./docs/catalog.png)
-  ![Main page](./docs/mainPage.png)
+  ![Login page](./docs/login.jpeg)
+  ![Product catalog](./docs/catalog.jpeg)
+  ![Main page](./docs/mainPage.jpeg)
 
 ## Technologies Used
 
